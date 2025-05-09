@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global News Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Global News</h1>
+    <nav>
+      <ul>
+        <li><a href="#national">National</a></li>
+        <li><a href="#international">International</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#entertainment">Entertainment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <h2>Breaking News: Global Market Sees Uptrend</h2>
+    <p>Stay tuned for the latest updates around the world.</p>
+  </section>
+
+  <section class="top-stories" id="top-stories">
+    <h3>Top Stories</h3>
+    <div class="story" onclick="openStory('Tech Giants Merge')">
+      <h4>Tech Giants Merge in $100B Deal</h4>
+      <p>Two major tech firms have agreed to a merger...</p>
+    </div>
+    <div class="story" onclick="openStory('New Vaccine')">
+      <h4>New Vaccine Shows Promising Results</h4>
+      <p>Clinical trials suggest strong immunity response...</p>
+    </div>
+  </section>
+
+  <section class="category-section" id="national">
+    <h3>National News</h3>
+    <div class="story">Government passes new education reform bill.</div>
+    <div class="story">Metro expansion to connect 3 major cities by 2026.</div>
+    <div class="story">National security tightened for major event.</div>
+  </section>
+
+  <section class="category-section" id="international">
+    <h3>International News</h3>
+    <div class="story">G7 summit addresses climate and economy.</div>
+    <div class="story">Global peace talks resume in Geneva.</div>
+    <div class="story">Wildfires in Europe prompt global aid.</div>
+  </section>
+
+  <section class="category-section" id="sports">
+    <h3>Sports</h3>
+    <div class="story">National team qualifies for World Cup finals.</div>
+    <div class="story">Tennis legend announces retirement.</div>
+    <div class="story">Olympic trials start this weekend.</div>
+  </section>
+
+  <section class="category-section" id="entertainment">
+    <h3>Entertainment</h3>
+    <div class="story">Award-winning actor stars in new biopic.</div>
+    <div class="story">Music festival draws huge crowds.</div>
+    <div class="story">Streaming platform announces new originals.</div>
+  </section>
+
+  <footer id="footer">
+    <p>&copy; 2025 Global News. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
