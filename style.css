@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #e63946;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.top-stories, .category-section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+.story {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.story:hover {
+  background-color: #f9f9f9;
+}
+
+/* Styling for each section type */
+#national {
+  background-color: #fffbe6;
+  border-left: 8px solid #f4a261;
+}
+
+#international {
+  background-color: #e6f2ff;
+  border-left: 8px solid #457b9d;
+}
+
+#sports {
+  background-color: #e6ffe6;
+  border-left: 8px solid #2a9d8f;
+}
+
+#entertainment {
+  background-color: #fff0f5;
+  border-left: 8px solid #c06c84;
+}
+
+#top-stories {
+  background-color: #ffffff;
+  border-left: 8px solid #264653;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
